@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<adventure>
+	<node name = "start">
+		<text>Starting node</text>
+		<choice node = "node 2">This leads to node 2</choice>
+		<choice node = "node 3">This leads to node 3</choice>
+	</node>
+	
+	<node name = "node 2">
+		<text>This is node 2</text>
+		<choice node = "node 4">This leads to node 4</choice>
+		<choice node = "node 5">This leads to node 5</choice>
+		<choice node = "node 6">This leads to node 6</choice>
+		<choice node = "node 7">This leads to node 7</choice>
+	</node>
+	
+	<node name = "node 3">
+		<text>This is node 3</text>
+		<choice node = "node 8">This leads to node 8</choice>
+		<choice node = "node 9">This leads to node 9</choice>
+		<choice node = "node 10">This leads to node 10</choice>
+		<choice node = "node 11">This leads to node 11</choice>
+	</node>
+	
+	<node name = "node 4">
+		<text>This is node 4</text>
+		<choice node = "node 12">This leads to node 12</choice>
+		<choice node = "node 13">This leads to node 13</choice>
+		<choice node = "node 14">This leads to node 14</choice>
+		<choice node = "node 15">This leads to node 15</choice>
+	</node>
+	
+	<node name = "node 5">
+		<text>This is node 5</text>
+		<choice node = "node 16">This leads to node 16</choice>
+		<choice node = "node 17">This leads to node 17</choice>
+		<choice node = "node 18">This leads to node 18</choice>
+		<choice node = "node 19">This leads to node 19</choice>
+	</node>
+	
+	<node name = "node 6">
+		<text>This is node 6</text>
+		<choice node = "node 20">This leads to node 20</choice>
+		<choice node = "node 21">This leads to node 21</choice>
+		<choice node = "node 22">This leads to node 22</choice>
+		<choice node = "node 23">This leads to node 23</choice>
+	</node>
+	
+	<node name = "node 7">
+		<text>This is node 7</text>
+		<choice node = "node 24">This leads to node 24</choice>
+		<choice node = "node 25">This leads to node 25</choice>
+		<choice node = "node 26">This leads to node 26</choice>
+		<choice node = "node 27">This leads to node 27</choice>
+	</node>
+	
+	<node name = "node 8">
+		<text>This is node 8</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 9">
+		<text>This is node 9</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 10">
+		<text>This is node 10</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 11">
+		<text>This is node 11</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 12">
+		<text>This is node 12</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 13">
+		<text>This is node 13</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 14">
+		<text>This is node 14</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 15">
+		<text>This is node 15</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 16">
+		<text>This is node 16</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 17">
+		<text>This is node 17</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 18">
+		<text>This is node 18</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 19">
+		<text>This is node 19</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 20">
+		<text>This is node 20</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 21">
+		<text>This is node 21</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 22">
+		<text>This is node 22</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 23">
+		<text>This is node 23</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 24">
+		<text>This is node 24</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 25">
+		<text>This is node 25</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 26">
+		<text>This is node 26</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+	
+	<node name = "node 27">
+		<text>This is node 27</text>
+		<choice node = "end">This leads to the end</choice>
+	</node>
+		
+	
+	<node name = "end">
+		<text>This is the end.</text>
+		<choice node = "back to title screen">Back to Title Screen</choice>
+	</node>
+</adventure>
