@@ -47,12 +47,15 @@ class TitleScreenSprite extends Sprite
 		
 		var textField = new TextField();
 		textField.defaultTextFormat = textFormat;
-		textField.text = "Title Screen";
+		
 		textField.width = stage.stageWidth;
 		textField.mouseEnabled = false;
+		textField.text = "Title Screen";
 		textField.autoSize = TextFieldAutoSize.CENTER;
+		textField.x = stage.stageWidth * 0.5 - textField.width * 0.5;
 		textField.y = stage.stageHeight * 0.5;
 		addChild(textField);
+		
 	}
 	
 	private function onMouseDown(e:MouseEvent):Void 

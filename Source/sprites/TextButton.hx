@@ -50,8 +50,9 @@ class TextButton extends Sprite
 	
 	private function onMouseDown(e:MouseEvent):Void 
 	{
+		if (_functionToCallOnButtonDown != null)
+			_functionToCallOnButtonDown(_textToReturn);
 		dispose();
-		_functionToCallOnButtonDown(_textToReturn);
 	}
 	
 	function setupText() 

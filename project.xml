@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project>
-	<window background="#0x000000" fps="30" />
+	<window background="#0xC0C0C0" fps="30" />
 	<window width="500" height="600"/>
 	
 	<meta title="OpenFLGameTest2" package="com.sample.openflgametest2" version="1.0.0" company="Company Name" />
