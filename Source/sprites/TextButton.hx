@@ -44,7 +44,8 @@ class TextButton extends Sprite
 	function setupSimpleButton() 
 	{
 		addChild(_simpleButton);
-		_simpleButton.hitTestState = _simpleButton.overState;
+		if (_simpleButton.hitTestState == null)
+			_simpleButton.hitTestState = _simpleButton.upState;
 		_simpleButton.addEventListener(MouseEvent.MOUSE_DOWN, onMouseDown);
 	}
 	
@@ -67,6 +68,9 @@ class TextButton extends Sprite
 		textField.mouseEnabled = false;
 		addChild(textField);
 		var textBounds = textField.getBounds(textField);
+		#if html5
+			textField.x = width * 0.5 - textField.width * 0.5;
+		#end
 		textField.y = (textBounds.height * 0.5);
 	}
 	
